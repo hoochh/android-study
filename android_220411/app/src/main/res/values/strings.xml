@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lab01</string>
+    <string name="abc">abc</string> //새로운 String 등록, text = abc
+</resources>
