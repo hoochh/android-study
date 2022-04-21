@@ -7,6 +7,7 @@ import android.widget.CheckBox
 import android.widget.CompoundButton
 import com.example.hw220420.databinding.ActivityMainBinding
 
+var hobby=""
 class MainActivity : AppCompatActivity() {
     var flag = false
 
@@ -16,9 +17,11 @@ class MainActivity : AppCompatActivity() {
         //setContentView(R.layout.activity_main)
         setContentView(binding.root)
 
-        binding.checkBox1.setOnCheckedChangeListener(MyCheckBoxEventHandler(binding))
-        binding.checkBox2.setOnCheckedChangeListener(MyCheckBoxEventHandler(binding))
-        binding.checkBox3.setOnCheckedChangeListener(MyCheckBoxEventHandler(binding))
+        var hobby1 = binding.checkBox1.setOnCheckedChangeListener(MyCheckBoxEventHandler(binding)).toString()
+        var hobby2 = binding.checkBox2.setOnCheckedChangeListener(MyCheckBoxEventHandler(binding)).toString()
+        var hobby3 = binding.checkBox3.setOnCheckedChangeListener(MyCheckBoxEventHandler(binding)).toString()
+
+
 
         //이미지 변경
         binding.button1.setOnClickListener{
@@ -37,8 +40,28 @@ class MainActivity : AppCompatActivity() {
             var pw=binding.etPw.text.toString()
             var intro=binding.etIntro.text.toString()
             var gender=""
+            var hobby1=""
+            var hobby2=""
+            var hobby3=""
             var hobby=""
 
+            if(binding.checkBox1.isChecked) {
+                hobby1 = "여행 "
+            }else{
+                hobby1 = ""
+            }
+            if(binding.checkBox2.isChecked) {
+                hobby2 = "게임 "
+            }else{
+                hobby2 = ""
+            }
+            if(binding.checkBox3.isChecked) {
+                hobby3 = "등산 "
+            }else{
+                hobby3 = ""
+            }
+
+            hobby=hobby1 + hobby2 + hobby3
 
             when(binding.RadioGroup.checkedRadioButtonId){
                 R.id.radioButtonM->{
@@ -60,7 +83,9 @@ class MainActivity : AppCompatActivity() {
             binding.etIntro.setText(null)
             binding.tvResult.setText(null)
             binding.RadioGroup.clearCheck()
-
+            binding.checkBox1.isChecked=false
+            binding.checkBox2.isChecked=false
+            binding.checkBox3.isChecked=false
         }
     }
 }
@@ -76,7 +101,6 @@ class MyCheckBoxEventHandler(binding: ActivityMainBinding) : CompoundButton.OnCh
         this.binding=binding
     }
     override fun onCheckedChanged(p0: CompoundButton?, p1: Boolean) {
-        //TODO("Not yet implemented")
         when (p0) {
             binding.checkBox1 -> {
                 if (p1) {
