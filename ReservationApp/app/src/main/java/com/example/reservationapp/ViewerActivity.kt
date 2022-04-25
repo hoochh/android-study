@@ -7,14 +7,14 @@ import com.example.reservationapp.databinding.ActivityViewerBinding
 
 class ViewerActivity : AppCompatActivity() {
     // 이미지 뷰어 앱 만들기
+    lateinit var binding: ActivityViewerBinding
+    lateinit var ids: Array<Int>
+    lateinit var titles:Array<String>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         //setContentView(R.layout.activity_viewer)
 
-        lateinit var binding: ActivityViewerBinding
-        lateinit var ids: Array<Int>
-        lateinit var titles:Array<String>
         var i=0
 
         // 제목, 이미지 배열 생성

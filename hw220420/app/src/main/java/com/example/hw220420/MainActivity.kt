@@ -21,8 +21,6 @@ class MainActivity : AppCompatActivity() {
         var hobby2 = binding.checkBox2.setOnCheckedChangeListener(MyCheckBoxEventHandler(binding)).toString()
         var hobby3 = binding.checkBox3.setOnCheckedChangeListener(MyCheckBoxEventHandler(binding)).toString()
 
-
-
         //이미지 변경
         binding.button1.setOnClickListener{
             if(flag){
