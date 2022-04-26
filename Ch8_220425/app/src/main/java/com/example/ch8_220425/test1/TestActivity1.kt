@@ -4,6 +4,8 @@ import android.app.AlertDialog
 import android.app.DatePickerDialog
 import android.app.TimePickerDialog
 import android.content.DialogInterface
+import android.media.MediaPlayer
+import android.media.RingtoneManager
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -13,6 +15,7 @@ import android.widget.Toast
 import androidx.annotation.RequiresApi
 import com.example.ch8_220425.R
 import com.example.ch8_220425.databinding.ActivityTest1Binding
+import com.example.ch8_220425.databinding.InputDialogBinding
 
 class TestActivity1 : AppCompatActivity() {
     @RequiresApi(Build.VERSION_CODES.R)
@@ -83,12 +86,18 @@ class TestActivity1 : AppCompatActivity() {
         binding.button5.setOnClickListener {
             var items= arrayOf<String>("사과","복숭아","수박","포도")
             var str=""
-
+            var bitems = booleanArrayOf(true, false, true, false)
+            for (i in 0..bitems.size-1){
+                if(bitems[i]){
+                    str+=items[i]
+                }
+            }
             AlertDialog.Builder(this).run {
                 setTitle("items test")
                 setIcon(android.R.drawable.ic_dialog_info)
                 setMultiChoiceItems(items,
-                    booleanArrayOf(false,false,false,false),
+                    /*booleanArrayOf(false,false,false,false),*/
+                    bitems,
                     DialogInterface.OnMultiChoiceClickListener {
                             dialogInterface, i, b ->
                         if(b){
@@ -100,6 +109,41 @@ class TestActivity1 : AppCompatActivity() {
                 )
                 setPositiveButton("닫기",DialogInterface.OnClickListener{
                     dialogInterface, i ->
+                    binding.textView.setText(str)
+                })
+                show()
+            }
+        }
+
+        binding.button6.setOnClickListener {
+            var items= arrayOf<String>("사과","복숭아","수박","포도")
+            var str= items[1]
+            AlertDialog.Builder(this).run {
+                setSingleChoiceItems(items, 1,
+                    DialogInterface.OnClickListener { dialogInterface, i ->
+                    str = items[i]
+                })
+                setPositiveButton("닫기",DialogInterface.OnClickListener{
+                        dialogInterface, i ->
+                    binding.textView.setText(str)
+                })
+                show()
+            }
+        }
+
+        binding.button7.setOnClickListener {
+            var dialogBinding=InputDialogBinding.inflate(layoutInflater)
+            AlertDialog.Builder(this).run{
+                setTitle("Input")
+                setView(dialogBinding.root)
+                setPositiveButton("닫기",DialogInterface.OnClickListener{
+                    dialogInterface, i ->
+                    var str=dialogBinding.editText1.text.toString()
+                    var id=dialogBinding.radioGroup.checkedRadioButtonId
+                    when(id){
+                        R.id.radioMale -> str+=dialogBinding.radioMale.text.toString()
+                        R.id.radioFemale -> str+=dialogBinding.radioFemale.text.toString()
+                    }
                     binding.textView.setText(str)
                 })
                 show()
