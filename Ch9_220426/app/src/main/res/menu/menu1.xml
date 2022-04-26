@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itemRed"
+        android:title="배경색(빨강)"
+        android:icon="@android:drawable/ic_menu_add"/>
+    <item
+        android:id="@+id/itemGreen"
+        android:title="배경색(초록)"
+        android:icon="@android:drawable/ic_menu_add"/>
+    <item
+        android:id="@+id/itemBlue"
+        android:title="배경색(파랑)"/>
+
+    <!-- 하위 메뉴 생성 -->
+    <item android:title="크기 변경">
+        <menu>
+            <item
+                android:id="@+id/sizeEx"
+                android:title="크기 확대"/>
+            <item
+                android:id="@+id/sizeSub"
+                android:title="크기 축소"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_search"
+        android:title="search"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+</menu>
