@@ -19,7 +19,8 @@ class MainActivity : AppCompatActivity() {
         val binding= ActivityMainBinding.inflate(layoutInflater)
         //setContentView(R.layout.activity_main)
         setContentView(binding.root)
-
+    
+        // 수업 시간에 했던 방식(class 생성)
         binding.checkBox1.setOnCheckedChangeListener(MyCheckBoxEventHandler(binding))
         binding.checkBox2.setOnCheckedChangeListener(MyCheckBoxEventHandler(binding))
         binding.checkBox3.setOnCheckedChangeListener(MyCheckBoxEventHandler(binding))
@@ -41,6 +42,8 @@ class MainActivity : AppCompatActivity() {
             var pw=binding.etPw.text.toString()
             var intro=binding.etIntro.text.toString()
             var gender=""
+            
+            // class 생성하지 않고 isChecked로 하는 방식
 //            var hobby1=""
 //            var hobby2=""
 //            var hobby3=""
