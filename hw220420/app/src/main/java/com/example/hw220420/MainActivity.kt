@@ -62,8 +62,6 @@ class MainActivity : AppCompatActivity() {
 //                hobby3 = ""
 //            }
 
-
-
             when(binding.RadioGroup.checkedRadioButtonId){
                 R.id.radioButtonM->{
                     gender="남자"
