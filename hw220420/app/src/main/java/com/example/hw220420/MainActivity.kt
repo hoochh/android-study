@@ -8,6 +8,9 @@ import android.widget.CompoundButton
 import com.example.hw220420.databinding.ActivityMainBinding
 
 var hobby=""
+var hobby1=""
+var hobby2=""
+var hobby3=""
 class MainActivity : AppCompatActivity() {
     var flag = false
 
@@ -17,9 +20,9 @@ class MainActivity : AppCompatActivity() {
         //setContentView(R.layout.activity_main)
         setContentView(binding.root)
 
-        var hobby1 = binding.checkBox1.setOnCheckedChangeListener(MyCheckBoxEventHandler(binding)).toString()
-        var hobby2 = binding.checkBox2.setOnCheckedChangeListener(MyCheckBoxEventHandler(binding)).toString()
-        var hobby3 = binding.checkBox3.setOnCheckedChangeListener(MyCheckBoxEventHandler(binding)).toString()
+        binding.checkBox1.setOnCheckedChangeListener(MyCheckBoxEventHandler(binding))
+        binding.checkBox2.setOnCheckedChangeListener(MyCheckBoxEventHandler(binding))
+        binding.checkBox3.setOnCheckedChangeListener(MyCheckBoxEventHandler(binding))
 
         //이미지 변경
         binding.button1.setOnClickListener{
@@ -38,28 +41,28 @@ class MainActivity : AppCompatActivity() {
             var pw=binding.etPw.text.toString()
             var intro=binding.etIntro.text.toString()
             var gender=""
-            var hobby1=""
-            var hobby2=""
-            var hobby3=""
-            var hobby=""
+//            var hobby1=""
+//            var hobby2=""
+//            var hobby3=""
+//            var hobby=""
 
-            if(binding.checkBox1.isChecked) {
-                hobby1 = "여행 "
-            }else{
-                hobby1 = ""
-            }
-            if(binding.checkBox2.isChecked) {
-                hobby2 = "게임 "
-            }else{
-                hobby2 = ""
-            }
-            if(binding.checkBox3.isChecked) {
-                hobby3 = "등산 "
-            }else{
-                hobby3 = ""
-            }
+//            if(binding.checkBox1.isChecked) {
+//                hobby1 = "여행 "
+//            }else{
+//                hobby1 = ""
+//            }
+//            if(binding.checkBox2.isChecked) {
+//                hobby2 = "게임 "
+//            }else{
+//                hobby2 = ""
+//            }
+//            if(binding.checkBox3.isChecked) {
+//                hobby3 = "등산 "
+//            }else{
+//                hobby3 = ""
+//            }
 
-            hobby=hobby1 + hobby2 + hobby3
+
 
             when(binding.RadioGroup.checkedRadioButtonId){
                 R.id.radioButtonM->{
@@ -90,10 +93,6 @@ class MainActivity : AppCompatActivity() {
 
 class MyCheckBoxEventHandler(binding: ActivityMainBinding) : CompoundButton.OnCheckedChangeListener {
     lateinit var binding: ActivityMainBinding
-    var hobby1=""
-    var hobby2=""
-    var hobby3=""
-    var hobby=""
 
     init{
         this.binding=binding
@@ -104,21 +103,21 @@ class MyCheckBoxEventHandler(binding: ActivityMainBinding) : CompoundButton.OnCh
                 if (p1) {
                     hobby1 += "여행 "
                 } else {
-                    hobby1 += ""
+                    hobby1 = ""
                 }
             }
             binding.checkBox2 -> {
                 if (p1) {
                     hobby2 += "게임 "
                 } else {
-                    hobby2 += ""
+                    hobby2 = ""
                 }
             }
             binding.checkBox3 -> {
                 if (p1) {
                     hobby3 += "등산 "
                 } else {
-                    hobby3 += ""
+                    hobby3 = ""
                 }
             }
         }

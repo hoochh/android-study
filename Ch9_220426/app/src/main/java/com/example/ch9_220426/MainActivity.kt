@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         val menuItem1: MenuItem? = menu?.add(0,0,0,"빨강")
         val menuItem2: MenuItem? = menu?.add(0,1,0,"초록")
         val menuItem3: MenuItem? = menu?.add(0,2,0,"파랑")
+        // (int groupId, int itemId(고유한 항목, NONE 사용 가능), int order, string titleRes)
         return super.onCreateOptionsMenu(menu) //boolean 값
     }
 
