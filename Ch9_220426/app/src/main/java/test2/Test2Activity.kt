@@ -18,15 +18,15 @@ class Test2Activity : AppCompatActivity() {
         val fragmentManager: FragmentManager = supportFragmentManager
         val trasaction: FragmentTransaction = fragmentManager.beginTransaction()
         var fragment = OneFragment()
-        trasaction.add(R.id.container, fragment)
+        trasaction.add(R.id.container, fragment) // 제일 처음 프래그먼트가 add
         trasaction.commit()
 
         binding.button2.setOnClickListener {
             val fragmentManager: FragmentManager = supportFragmentManager
             val trasaction: FragmentTransaction = fragmentManager.beginTransaction()
             var fragment = OneFragment()
-            trasaction.replace(R.id.container, fragment)
-            trasaction.addToBackStack(null)
+            trasaction.replace(R.id.container, fragment) // 처음 프래그먼트가 현재 프래그먼트로 replace
+            trasaction.addToBackStack(null) // 스택을 null로 변경(화면에 보이지 않고 저장 후 다시 이용할 수 있는 기능)
             trasaction.commit()
         }
         binding.button3.setOnClickListener {
