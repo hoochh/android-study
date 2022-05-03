@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="item1"
+        android:id="@+id/item1"/>
+    <item
+        android:icon="@android:drawable/ic_menu_upload"
+        android:title="item2"
+        android:id="@+id/item2"/>
+    <item
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="item3"
+        android:id="@+id/item3"/>
+    <item
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="item4"
+        android:id="@+id/item4"/>
+</menu>
