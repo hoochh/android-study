@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ch13_220504.iml" filepath="$PROJECT_DIR$/.idea/modules/Ch13_220504.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Ch13_220504.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Ch13_220504.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mp3_outer/Ch13_220504.mp3_outer.iml" filepath="$PROJECT_DIR$/.idea/modules/mp3_outer/Ch13_220504.mp3_outer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mp3_service/Ch13_220504.mp3_service.iml" filepath="$PROJECT_DIR$/.idea/modules/mp3_service/Ch13_220504.mp3_service.iml" />
+    </modules>
+  </component>
+</project>

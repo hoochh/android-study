@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "Ch14_220504"
 include ':app'
 include ':test1_provider'
-include ':test2'
+include ':myapplication'

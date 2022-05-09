@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\LYK\\work\\android\\android-study\\Ch15_220509\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\LYK\\work\\android\\android-study\\Ch15_220509\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\LYK\\work\\android\\android-study\\Ch15_220509\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add.xml",
+        "source": "C:\\LYK\\work\\android\\android-study\\Ch15_220509\\app\\src\\main\\res\\layout\\activity_add.xml"
+    },
+    {
+        "merged": "C:\\LYK\\work\\android\\android-study\\Ch15_220509\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_setting.xml",
+        "source": "C:\\LYK\\work\\android\\android-study\\Ch15_220509\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "C:\\LYK\\work\\android\\android-study\\Ch15_220509\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_recyclerview.xml",
+        "source": "C:\\LYK\\work\\android\\android-study\\Ch15_220509\\app\\src\\main\\res\\layout\\item_recyclerview.xml"
+    }
+]
