@@ -24,6 +24,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+
+    }
+
+    override fun onStart() {
+        super.onStart()
         val networkService=(applicationContext as MyApplication).networkService
         val userListCall=networkService.doGetUserList()
         userListCall.enqueue(object:Callback<UserListModel>{
