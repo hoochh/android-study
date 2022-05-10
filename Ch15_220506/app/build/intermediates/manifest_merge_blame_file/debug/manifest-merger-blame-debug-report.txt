@@ -1,0 +1,146 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ch15_220506"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:5:5-60:19
+12        android:allowBackup="true"
+12-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\USER\.gradle\caches\transforms-3\5569570771428b265868d1805759cc49\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.Ch15_220506" >
+20-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:11:9-49
+21        <activity
+21-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:12:9-14:40
+22            android:name="com.example.ch15_220506.test3.Test32Activity"
+22-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:13:13-49
+23            android:exported="false" />
+23-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:14:13-37
+24        <activity
+24-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:15:9-23:20
+25            android:name="com.example.ch15_220506.test3.Test31Activity"
+25-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:16:13-49
+26            android:exported="true" >
+26-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:17:13-36
+27            <intent-filter>
+27-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:19:17-69
+28-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:21:17-77
+30-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:24:9-32:20
+34            android:name="com.example.ch15_220506.test3.Test3Activity"
+34-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:25:13-48
+35            android:exported="true" >
+35-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:26:13-36
+36            <intent-filter>
+36-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:18:13-22:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:19:17-69
+37-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:19:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:21:17-77
+39-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:21:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:33:9-41:20
+43            android:name="com.example.ch15_220506.test2.Test2Activity"
+43-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:34:13-48
+44            android:exported="true" >
+44-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:35:13-36
+45            <intent-filter>
+45-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:18:13-22:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:19:17-69
+46-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:19:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:21:17-77
+48-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:21:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:42:9-50:20
+52            android:name="com.example.ch15_220506.test1.Test1Activity"
+52-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:43:13-48
+53            android:exported="true" >
+53-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:44:13-36
+54            <intent-filter>
+54-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:18:13-22:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:19:17-69
+55-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:19:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:21:17-77
+57-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:21:27-74
+58            </intent-filter>
+59        </activity>
+60        <activity
+60-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:51:9-59:20
+61            android:name="com.example.ch15_220506.MainActivity"
+61-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:52:13-41
+62            android:exported="true" >
+62-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:53:13-36
+63            <intent-filter>
+63-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:18:13-22:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:19:17-69
+64-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:19:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:21:17-77
+66-->C:\LYK\work\android\Ch15_220506\app\src\main\AndroidManifest.xml:21:27-74
+67            </intent-filter>
+68        </activity>
+69
+70        <provider
+70-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+71            android:name="androidx.startup.InitializationProvider"
+71-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+72            android:authorities="com.example.ch15_220506.androidx-startup"
+72-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+73            android:exported="false" >
+73-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+74            <meta-data
+74-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+75                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+75-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+76                android:value="androidx.startup" />
+76-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\c20bf7e1b62e142e5eb52b3bdb4e5297\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+77            <meta-data
+77-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USER\.gradle\caches\transforms-3\c1b31467da5823b7297c035c7f672194\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+78                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+78-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USER\.gradle\caches\transforms-3\c1b31467da5823b7297c035c7f672194\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+79                android:value="androidx.startup" />
+79-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USER\.gradle\caches\transforms-3\c1b31467da5823b7297c035c7f672194\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+80        </provider>
+81    </application>
+82
+83</manifest>

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\LYK\\work\\android\\Ch15_220506\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\LYK\\work\\android\\Ch15_220506\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\LYK\\work\\android\\Ch15_220506\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_test3.xml",
+        "source": "C:\\LYK\\work\\android\\Ch15_220506\\app\\src\\main\\res\\layout\\activity_test3.xml"
+    },
+    {
+        "merged": "C:\\LYK\\work\\android\\Ch15_220506\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_test32.xml",
+        "source": "C:\\LYK\\work\\android\\Ch15_220506\\app\\src\\main\\res\\layout\\activity_test32.xml"
+    },
+    {
+        "merged": "C:\\LYK\\work\\android\\Ch15_220506\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_test2.xml",
+        "source": "C:\\LYK\\work\\android\\Ch15_220506\\app\\src\\main\\res\\layout\\activity_test2.xml"
+    },
+    {
+        "merged": "C:\\LYK\\work\\android\\Ch15_220506\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_test31.xml",
+        "source": "C:\\LYK\\work\\android\\Ch15_220506\\app\\src\\main\\res\\layout\\activity_test31.xml"
+    },
+    {
+        "merged": "C:\\LYK\\work\\android\\Ch15_220506\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_test1.xml",
+        "source": "C:\\LYK\\work\\android\\Ch15_220506\\app\\src\\main\\res\\layout\\activity_test1.xml"
+    }
+]
