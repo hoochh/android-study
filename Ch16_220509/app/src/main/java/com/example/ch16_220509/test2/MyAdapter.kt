@@ -50,7 +50,7 @@ class MyAdapter(val context: Context, val datas:List<UserModel>?):RecyclerView.A
 //        }
         Glide.with(context.applicationContext as MyApplication)
             .load(user?.avatar)
-            .override(500,500)
+            .override(100,100)
             //.placeholder(R.drawable.loading)
             //.error(R.drawable.error)
             .into(binding.imageView)
