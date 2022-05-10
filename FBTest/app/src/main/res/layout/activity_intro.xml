@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    android:layout_gravity="center_vertical"
+    tools:context=".IntroActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/btnMemLogin"
+        android:backgroundTint="@color/brown"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="회원 로그인" />
+
+    <Button
+        android:id="@+id/btnSocialLogin"
+        android:backgroundTint="@color/ivory"
+        android:textColor="@color/green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="NAVER 계정으로 로그인" />
+
+    <TextView
+        android:id="@+id/goJoinPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="회원가입" />
+
+
+</LinearLayout>

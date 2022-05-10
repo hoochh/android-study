@@ -24,48 +24,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8d9ea10-8b7f-494c-b139-2e627ad83259" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/androidTest/java/com/example/test2/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/java/com/example/test2/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/res/drawable-v24/user_basic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/res/values/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/main/res/xml/file_paths.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/test2/src/test/java/com/example/test2/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ch15_220506/test1/Test1Activity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ch15_220506/test2/Test2Activity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ch15_220506/test3/Test31Activity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ch15_220506/test3/Test32Activity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ch15_220506/test3/Test3Activity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_test1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_test2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_test3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_test31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_test32.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ch14_220504/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch14_220504/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ch14_220504/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch14_220504/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ch14_220504/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch14_220504/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FBTest/app/src/main/java/com/example/fbtest/HomeActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FBTest/app/src/main/java/com/example/fbtest/IntroActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FBTest/app/src/main/java/com/example/fbtest/JoinActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FBTest/app/src/main/java/com/example/fbtest/LoginActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FBTest/app/src/main/res/drawable/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FBTest/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FBTest/app/src/main/res/layout/activity_intro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FBTest/app/src/main/res/layout/activity_join.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FBTest/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ch15_220509/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch15_220509/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FBTest/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FBTest/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FBTest/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FBTest/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FBTest/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FBTest/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FBTest/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FBTest/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FBTest/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FBTest/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +66,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.801551439">

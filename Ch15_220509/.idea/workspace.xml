@@ -13,55 +13,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46534710-8bd7-4bbe-99ce-c315163b9f42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/src/main/java/com/example/myapplication/database15.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/src/main/res/layout/activity_database15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ch14_220504/myapplication/src/test/java/com/example/myapplication/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ch15_220509/AddActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ch15_220509/MyAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ch15_220509/MyDBHelper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ch15_220509/MySettingsFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ch15_220509/SettingActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/todo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_add.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_setting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_recyclerview.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_add.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/root_preferences.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ch14_220504/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch14_220504/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ch14_220504/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch14_220504/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FBTest/app/src/main/java/com/example/fbtest/HomeActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FBTest/app/src/main/java/com/example/fbtest/IntroActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FBTest/app/src/main/java/com/example/fbtest/JoinActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FBTest/app/src/main/java/com/example/fbtest/LoginActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FBTest/app/src/main/res/drawable/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FBTest/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FBTest/app/src/main/res/layout/activity_intro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FBTest/app/src/main/res/layout/activity_join.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FBTest/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ch15_220506/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch15_220506/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FBTest/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FBTest/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FBTest/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FBTest/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FBTest/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FBTest/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FBTest/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FBTest/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FBTest/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FBTest/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\admin\.android\avd\Pixel_2_API_30_1.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\USER\.android\avd\Pixel_2_API_30_2.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -91,6 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ch15_220506" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -246,5 +220,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
