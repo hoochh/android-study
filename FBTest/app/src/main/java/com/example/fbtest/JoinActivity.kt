@@ -20,27 +20,26 @@ class JoinActivity : AppCompatActivity() {
         binding= ActivityJoinBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        auth=FirebaseAuth.getInstance()
+        auth=Firebase.auth
 
         binding.btnJoin.setOnClickListener{
             val email = binding.editId.text.toString()
             val password = binding.editPwd.text.toString()
 
             auth.createUserWithEmailAndPassword(email, password)
-                .addOnCompleteListener(this){ task ->
-                if(task.isSuccessful){
-                    Toast.makeText(this, "회원가입 성공", Toast.LENGTH_SHORT).show()
-                    val user=auth.currentUser
-                    updateUI(user)
-//                    val intent= Intent(this,HomeActivity::class.java)
-//                    startActivity(intent)
-                }else{
-                    Toast.makeText(this, "회원가입 실패", Toast.LENGTH_SHORT).show()
-                    updateUI(null)
+                    .addOnCompleteListener(this){ task ->
+                    if(task.isSuccessful){
+                        val user=auth.currentUser
+                        updateUI(user)
+    //                    val intent= Intent(this,HomeActivity::class.java)
+    //                    startActivity(intent)
+
+                        Toast.makeText(this, "회원가입 성공", Toast.LENGTH_SHORT).show()
+                    }else{
+                        Toast.makeText(this, "회원가입 실패", Toast.LENGTH_SHORT).show()
+                        updateUI(null)
+                    }
                 }
-            }
-            .addOnFailureListener {
-                Toast.makeText(this, "회원가입 실패", Toast.LENGTH_SHORT).show()
             }
         }
     }
