@@ -9,10 +9,12 @@ import retrofit2.http.POST
 import retrofit2.http.Path
 
 interface INetworkService {
+    // spring controller에서 작성한 url과 같아야 함
+
     @GET("list")
     fun doGetUserList():Call<UserListModel>
 
-    @GET("user/{id}")
+    @GET("getUser/{id}")
     fun doGetUser(@Path("id") id:Long):Call<UserModel>
 
     @POST("insert")
