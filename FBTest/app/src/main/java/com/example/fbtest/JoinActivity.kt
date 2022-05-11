@@ -44,7 +44,6 @@ class JoinActivity : AppCompatActivity() {
 
     private fun updateUI(user: FirebaseUser?) {
         user?.let {
-            binding.txtResult.text = "Email: ${user.email}\nUid: ${user.uid}"
         }
     }
 }
